@@ -1,0 +1,14 @@
+USE THESE COMMANDS FOR:
+# for Michel: petrunyo is my localhist name, use ur own for testing on local machine
+
+# to run 8 stand alone nodes on localhost (5000-5007)
+python main_runner.py
+
+# to build a chord from 8 standalone nodes
+./build_chord.sh
+
+# to run put-get test
+python performance_test.py petrunyo:5000 petrunyo:5001 petrunyo:5002 petrunyo:5003 petrunyo:5004 petrunyo:5005 petrunyo:5006 petrunyo:5007
+
+# to run api test
+python api_check.py petrunyo:5000 petrunyo:5001 petrunyo:5002 petrunyo:5003 petrunyo:5004 petrunyo:5005 petrunyo:5006 petrunyo:5007
