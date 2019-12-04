@@ -1,4 +1,5 @@
 ## Version 1
+Custom Chord system with the following API
 
 * PUT /storage/<key>: Store the value (message body) at the specific
 key (last part of the URI). PUT requests issued with existing keys should
