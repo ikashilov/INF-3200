@@ -1,4 +1,5 @@
 ## Version 2
+Version 1 extension with the following API:
 
 * GET /node-info List node key, state, and neighbors.  
 * POST /join?nprime=<HOST:PORT> Join a network. The node must contact the neighbor node nprime and join nprime’s network.  
